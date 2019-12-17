@@ -1,2 +1,3 @@
-/ff14Heart/obj/
-/ff14Heart/bin/
+obj/
+bin/
+/.vs
