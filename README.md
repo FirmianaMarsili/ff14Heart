@@ -1,7 +1,7 @@
 
 # FF14挂机软件
 
-[下载release版本](https://github.com/FirmianaMarsili/ff14Heart/releases)或者自行下载使用vs去编译
+[下载release版本并以管理员身份运行](https://github.com/FirmianaMarsili/ff14Heart/releases)或者自行下载使用vs去编译
 <br><br><br><br>
 
 
