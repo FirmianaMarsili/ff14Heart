@@ -22,7 +22,7 @@ namespace ff14Heart
         {
             get
             {
-                return string.Format("{0}{0}{0}输入指令操作{0}enabled  -  开启{0}disabled  -  关闭{0}quit  -  退出{0}{0}当前状态  -  {1}{0}{0}{0}", "\n", flag ? "开启" : "关闭");
+                return string.Format("{0}{0}{0}输入指令操作{0}1  -  开启{0}0  -  关闭{0}-1  -  退出{0}{0}当前状态  -  {1}{0}{0}{0}", "\n", flag ? "开启" : "关闭");
             }
         }
         private static string CMD
@@ -47,11 +47,11 @@ namespace ff14Heart
 
         private static void HandleCMD(string cmd)
         {
-            if (cmd == "quit")
+            if (cmd == "-1")
             {
                 Environment.Exit(0);
             }
-            else if (cmd == "enabled")
+            else if (cmd == "1")
             {
                 if (flag)
                 {
@@ -79,7 +79,7 @@ namespace ff14Heart
                 HandleCMD(CMD);
 
             }
-            else if (cmd == "disabled")
+            else if (cmd == "0")
             {
                 if (!flag)
                 {
